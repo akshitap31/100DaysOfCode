@@ -9,4 +9,10 @@ def two_nums(list, target):
             return print([list.index(i), list.index(target-i)])
             break
     # return index
-two_nums([1,2,3,4,5,6],11)
+
+# def twoSum(nums, target):
+#     for i in nums:
+#         if (target - i) in nums:
+#             return print([nums.index(i), nums.index(target - i)])
+#             break
+# twoSum([2,7,11,15],9)
